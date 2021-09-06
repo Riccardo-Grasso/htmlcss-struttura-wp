@@ -6,6 +6,7 @@
 
 .block-width {
     width: 80%;
+    margin: 0 auto;
 }
 
 .site-menu {
@@ -66,7 +67,6 @@ section.float-left {
 }
 
 .site-footer {
-    width: 80%;
     height: 90px;
     background-color: #9300FD;
     margin: 10px auto;
