@@ -23,28 +23,16 @@
 .section-2 {
     background-color: #3D7FFE;
     height: 800px;
-    padding-bottom: 30px;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-.float {
+.section-2-top {
     background-color: #ABCCE6;
-    height: 15%;
+    height: 120px;
     margin-bottom: 30px;
 }
 
-.container {
-    height: calc((100% - 15%) - 30px);
-}
-
 .float-left {
-    height: 100%;
+    height: 620px;
     background-color: #ABCCE6;
     float: left;
 }
