@@ -44,7 +44,6 @@
 }
 
 .float-left {
-    width: calc(100% / 3);
     height: 100%;
     background-color: #ABCCE6;
     float: left;
