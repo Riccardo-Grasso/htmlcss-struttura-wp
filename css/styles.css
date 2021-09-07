@@ -22,7 +22,12 @@
 
 .section-2 {
     background-color: #3D7FFE;
-    height: 800px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .section-2-top {
@@ -51,7 +56,7 @@ nav.float-left{
 
 section.float-left {
     width: calc((100% - 40%) - 60px);
-    margin: 0 30px;
+    margin: 0 30px 30pxS;
 }
 
 .site-footer {
